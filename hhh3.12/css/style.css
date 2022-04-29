@@ -1,0 +1,449 @@
+@font-face {
+    font-family: Blacklitalc;
+    src: url(../fonts/BlackItalic.woff) format("woff")
+}
+
+@font-face {
+    font-family: sfpro_regular;
+    src: url(../fonts/Light.woff) format("woff")
+}
+
+@font-face {
+    font-family: Light;
+    src: url(../fonts/Light.woff) format("woff")
+}
+
+@font-face {
+    font-family: LightItalic;
+    src: url(../fonts/LightItalic.woff) format("woff")
+}
+
+.opisanie.forma {
+    margin-top: 50px;
+}
+
+.forma form {
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noname li:hover {
+    border-bottom: 5px solid rgb(0, 0, 0);
+    transition-duration: 0.2s;
+}
+
+.noname li .mh {
+    color: black;
+    font-size: 17px;
+}
+
+.anketa {
+    width: fit-content;
+}
+
+.podpis {
+    font-size: 25px;
+}
+
+frame {
+    border: 2.5px solid #000;
+}
+
+
+/* #ages {
+  al
+} */
+
+@font-face {
+    font-family: Regular;
+    src: url(../fonts/Regular.woff) format("woff")
+}
+
+p {
+    font-family: LightItalic;
+}
+
+body {
+    background: linear-gradient(to top left, powderblue, pink);
+}
+
+p.t {
+    text-indent: 20px;
+    /*отступ строк*/
+}
+
+h1 {
+    font-family: Blacklitalc;
+}
+
+h2 {
+    font-family: Blacklitalc;
+}
+
+h3 {
+    font-family: Blacklitalc;
+}
+
+header {
+    border-bottom: 5px solid rgb(15, 15, 20);
+    /*разделительная линия в шапке*/
+}
+
+nav li {
+    display: inline;
+    /*Разметка В шапке*/
+    color: black;
+    margin: 0px 50px;
+    font-size: 20pt;
+    font-family: Light;
+}
+
+h1 {
+    font-size: 25pt;
+}
+
+.t {
+    text-align: justify;
+}
+
+.logo span {
+    font-size: 25pt
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: rgb(66, 76, 91);
+    text-transform: uppercase;
+    line-height: 1.2;
+    /*background-color:rgb(245, 237, 237);*/
+    padding: 22px 20px 20px 22px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 12px;
+}
+
+.container {
+    width: 1360px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header_contact {
+    align-self: end;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body__conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.body__conteiner>div {
+    display: flex;
+    justify-items: center;
+    max-width: 1360px;
+}
+
+.courses {
+    /* border-left: 5px solid #000;
+    border-right: 5px solid #000; */
+    /* border-radius: 13px;
+    flex-basis: 15%; */
+    /* height: fit-content; */
+    /* margin-right: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-right: 0;
+    width: 30%; */
+    font-family: Light;
+    font-size: 23.5px;
+}
+
+.courses li {
+    margin-bottom: 10px;
+}
+
+.content__content {
+    flex-basis: 85%;
+    width: 70%;
+}
+
+.menu {
+    align-self: end;
+}
+
+nav li .mh {
+    color: inherit;
+    text-decoration: unset;
+}
+
+.upp {
+    color: #000000;
+    font-size: 15px;
+}
+
+
+/* .contactss {
+    text-decoration: unset;
+} */
+
+footer {
+    background-color: rgb(242, 242, 251);
+    ;
+    font-family: Light;
+    border-top: 5px solid rgb(15, 15, 20);
+    border-bottom: 5px solid rgb(15, 15, 20);
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.ff .mh {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+address {
+    margin-top: 5px;
+}
+.hm {
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    border-radius: 0;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    height: calc(1.5rem + 2px);
+    width: auto;
+    line-height: 1.25;
+    padding: 1rem 0.75rem;
+    background-color: #f5f5f5;
+}
+
+.mh{
+
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    /* padding-top: 9px; */
+    color: #000000;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    margin: 20px auto;
+    font: normal 17px arial;
+
+
+}
+
+.helpers>table {
+    font-family: LightItalic;
+    margin-left: 15%;
+    text-indent: 20px;
+    border-top: 5px solid rgb(8, 7, 7);
+    border-bottom: 5px solid #000;
+    border-radius: 5%;
+    color: rgb(0, 0, 0);
+}
+
+
+/* .helper>p {
+    border: 5px solid #000;
+} */
+
+.opisanie {
+    background-color: #f0f0f1;
+    font-family: LightItalic;
+    margin-left: 15%;
+    text-indent: 20px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    border-radius: 5%;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+.helper {
+    background-color: #f0f0f1;
+    font-family: LightItalic;
+    margin-left: 15%;
+    text-indent: 20px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    border-radius: 5%;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+.okno {
+    width: fit-content;
+    text-align: center;
+    padding: 25px;
+    border-top: 3px solid #323232;
+    border-bottom: 3px solid #323232;
+    background-color: rgb(153, 202, 220);
+    border-radius: 5px;
+    color: #0f0f0f;
+    border-left: 7px solid rgb(45, 66, 23);
+}
+
+.html-example {
+    display: flex;
+}
+
+.knopka {
+    border-top: 2.5px solid rgb(7, 7, 7);
+    border-bottom: 2.5px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    color: #000000;
+}
+
+.containers>img {
+    border-radius: 7%;
+}
+
+.containers {
+    position: relative;
+    text-align: center;
+    color: rgb(14, 13, 13);
+}
+
+.dropbtn {
+    background-color: #090c09;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    border: none;
+    font-family: Light;
+    width: 250px;
+    border-radius: 17px;
+}
+
+
+/* .top-left {
+    text-indent: 20px;
+    text-align: justify;
+    font-family: Light;
+    position: absolute;
+    top: 25px;
+    left: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    background: black;
+    border: 2px solid #000;
+    border-radius: 10%;
+}
+
+.center {
+    text-indent: 30px;
+    text-align: center;
+    font-family: LightItalic;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    background: black;
+    border: 2px solid #000;
+    border-radius: 10%;
+} */
+
+
+/* .block {
+    background-position-x: 100 px;
+    border-radius: 3.5%;
+    background: url("https://vedeniesaitov.ru/img/publ/1/UQdo-NLJXRs-1-.jpg")
+} */
+
+.pavelhelp {
+    display: flex;
+}
+
+.k1>img {
+    width: 50%;
+    height: 50%;
+    border: 5px solid #000;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c8cff0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 250px;
+}
+
+.dropdown-content .mh {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content .mh:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #2656a9;
+}
+.newcl {
+     border: none;
+      border-bottom: 1px solid #bdbdbd;
+      border-radius: 0;
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+      height: calc(3.5rem + 2px);
+      line-height: 1.25;
+      padding: 1rem 0.75rem;
+      background-color: #f5f5f5;
+    
+}
+.newcl1 {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto; 
+    background: radial-gradient(farthest-side ellipse at top left, white, #aaaaaa);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
+
+}
+.newcl2 {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto; 
+    background: radial-gradient(farthest-side ellipse at top left, white, #aaaaaa);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
+
+}
+.omg {
+
+    margin: 15px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
